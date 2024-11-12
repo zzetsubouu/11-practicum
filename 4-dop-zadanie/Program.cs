@@ -18,7 +18,7 @@ namespace _4_dop_zadanie
             Console.Write("введите шаг:");
             int step = int.Parse(Console.ReadLine());
             Function123(startValue, endValue, step);
-            Console.Read();
+            Console.ReadKey();
         }
         public static void Function123(int start, int end, int step)
         {
